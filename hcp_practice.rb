@@ -8,8 +8,7 @@
   # Could manipulate the string before iterating OR user a conditional.
 
 def count_letters(word)
-  # Create the hash.  I'm passing 0 to "new" for easy incrementing later.
-  # This saves the need for additional logic when incrementing within the each block.
+  # Create the hash with "0" passed to .new to avoid some further logic while incrementing.
   letter_counts = Hash.new(0)
   # En lieu of a conditional block, I decided to change the string to only allow include the lowercase characters.
   word_with_only_letters = word.downcase.gsub!(/[^a-z]/, "")
