@@ -12,5 +12,5 @@ def count_letters(string)
 end
 
 
-test_word = "Housecall Pro 12345!"
-p count_letters(test_word)
+test_string = "Housecall Pro 12345!"
+p count_letters(test_string)
